@@ -38,8 +38,9 @@
         <li><a href="/vuejs.org/guide/" class="nav-link current">入门</a></li>
 <li><a href="/vuejs.org/api/" class="nav-link">API 索引</a></li>
 <li><a href="/vuejs.org/examples/" class="nav-link">示例</a></li>
-<li><a href="/vuejs.org/blog/" class="nav-link">Blog</a></li>
+<li><a href="http://vuejs.org/blog/" target="_blank" class="nav-link">Blog (英文)</a></li>
 <li><a href="https://github.com/yyx990803/vue" target="_blank" class="nav-link">GitHub</a></li>
+<li><a href="http://vuejs.org/" target="_blank" class="nav-link">English</a></li>
     </ul>
 </div>
         
@@ -52,8 +53,9 @@
         <li><a href="/vuejs.org/guide/" class="nav-link current">入门</a></li>
 <li><a href="/vuejs.org/api/" class="nav-link">API 索引</a></li>
 <li><a href="/vuejs.org/examples/" class="nav-link">示例</a></li>
-<li><a href="/vuejs.org/blog/" class="nav-link">Blog</a></li>
+<li><a href="http://vuejs.org/blog/" target="_blank" class="nav-link">Blog (英文)</a></li>
 <li><a href="https://github.com/yyx990803/vue" target="_blank" class="nav-link">GitHub</a></li>
+<li><a href="http://vuejs.org/" target="_blank" class="nav-link">English</a></li>
     </ul>
     <div class="list">
         <h2>Guide</h2>
@@ -89,7 +91,7 @@
             
                 <li><a href="/vuejs.org/guide/faq.html" class="sidebar-link">常见问题</a></li>
             
-            <li><a href="http://legacy.vuejs.org">Looking for 0.10 docs?</a></li>
+            <li><a href="http://legacy.vuejs.org">旧版 0.10 文档</a></li>
             <li style="margin:10px 0 3px">
               <script data-gittip-username="yyx990803"
                 data-gittip-widget="button"
@@ -118,7 +120,7 @@
 </pre></td></tr></table></figure>
 
 
-<p>这是您作为一个开发者在使用 Vue.js 时主要打交道的对象。更多的细节请移步至<a href="/api/">Vue 构造函数</a>。</p>
+<p>这是您作为一个开发者在使用 Vue.js 时主要打交道的对象。更多的细节请移步至<a href="../api/">Vue 构造函数</a>。</p>
 <h3 id="视图_(View)">视图 (View)</h3>
 <p>实际被 Vue 实例管理的 DOM。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre>1
@@ -181,7 +183,7 @@
 </pre></td></tr></table></figure>
 
 
-<p>这样在 div 的文本内容被更新之前，<code>message</code> 的值会先传给 <code>capitalizie</code> 函数处理。更多内容可移步至<a href="/guide/filters.html">深入了解过滤器 (Filters)</a>。</p>
+<p>这样在 div 的文本内容被更新之前，<code>message</code> 的值会先传给 <code>capitalizie</code> 函数处理。更多内容可移步至<a href="../guide/filters.html">深入了解过滤器 (Filters)</a>。</p>
 <h3 id="组件_(Components)">组件 (Components)</h3>
 <p>在 Vue.js，每个组件都是一个简单的 Vue 实例。一个树形嵌套的各种组件就代表了你的应用程序的各种接口。通过 <code>Vue.extend</code> 返回的自定义构造函数可以把这些组件实例化，不过更声明式的建议是通过 <code>Vue.component(id, constructor)</code> 注册这些组件。一旦组件被注册，它们就可以在 Vue 实例的模板中以声明的形式嵌套使用了。</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre>1
@@ -193,7 +195,7 @@
 </pre></td></tr></table></figure>
 
 
-<p>这个简单的机制使得我们可以以类似 <a href="http://www.w3.org/TR/components-intro/" target="_blank">Web Components</a> 的声明形式对 Vue 实例进行复用和组合，无需最新版的浏览器或笨重的 polyfills。通过将一个应用程序拆分成简单的组件，代码库可以被尽可能的解耦，同时更易于维护。更多内容可移步至<a href="/guide/components.html">组件系统</a>。</p>
+<p>这个简单的机制使得我们可以以类似 <a href="http://www.w3.org/TR/components-intro/" target="_blank">Web Components</a> 的声明形式对 Vue 实例进行复用和组合，无需最新版的浏览器或笨重的 polyfills。通过将一个应用程序拆分成简单的组件，代码库可以被尽可能的解耦，同时更易于维护。更多内容可移步至<a href="../guide/components.html">组件系统</a>。</p>
 <h2 id="一个简单的例子">一个简单的例子</h2>
 <figure class="highlight html"><table><tr><td class="gutter"><pre>1
 2
@@ -280,9 +282,9 @@ var demo = new Vue({
 
 <p>也可以通过 <a href="http://jsfiddle.net/yyx990803/yMv7y/" target="_blank">jsfiddle</a> 查看。</p>
 <p>你可以点击一个 todo 来开关它，也可以打开你的浏览器命令行直接操作 <code>demo</code> 对象：比如改变 <code>demo.title</code>、向 <code>demo.todos</code> 里放入一个新的对象、或开关某个 todo 的 <code>done</code> 状态值。</p>
-<p>也许你脑海中还有一些问题，别担心，我们稍后都会提到的。接下来可移步至：<a href="/guide/directives.html">深入了解指令 (Directives)</a>。</p>
+<p>也许你脑海中还有一些问题，别担心，我们稍后都会提到的。接下来可移步至：<a href="../guide/directives.html">深入了解指令 (Directives)</a>。</p>
 
-    <div class="footer">发现了问题或想要贡献？ <a href="https://github.com/vuejs/vuejs.org" target="_blank">来 Github 给这个网站 Fork 吧</a>！</div>
+    <div class="footer">发现了问题或想要贡献？来 Github 给 Vue.js <a href="https://github.com/vuejs/vuejs.org" target="_blank">英文站点</a>或<a href="https://github.com/Jinjiang/vuejs.org/tree/lang-zh" target="_blank">中文翻译</a>来个 Fork 吧！</div>
 </div>
             
         </div>
